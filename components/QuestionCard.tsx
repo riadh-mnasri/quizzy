@@ -209,7 +209,7 @@ function FillBlankAnswer({
             ? isCorrect
               ? "border-green-500 bg-green-50 text-green-700 animate-pulse-green"
               : "border-red-500 bg-red-50 text-red-700 animate-shake"
-            : "border-gray-300 focus:border-indigo-500"
+            : "border-gray-300 bg-white text-gray-800 focus:border-indigo-500"
         }`}
       />
       {submitted && !isCorrect && (
